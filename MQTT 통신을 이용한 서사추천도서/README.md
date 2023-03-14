@@ -124,7 +124,7 @@
 
 ### 결론
 
-- Mqtt의  동작방식은  client와  broker가  정보를  주고받는  형식으로  진행된다.  
+- Mqtt의  동작방식은  Client와  broker가  정보를  주고받는  형식으로  진행된다.  
 - 여기서 client는 publisher가 될수도 있고 subscriber가 될 수도 있다. 
 - 이 프로젝트에서 publisher 역할을  이클립스의  MQTTpubliser가  해주었고 정보를 보내 브로커인 Mosquitto 가 www.js 로 정보를 보내주면 www.js 에서 DB에 데이터를 저장해주고 socket에 가공된 데이터를 전달해 html 페이지에서 이 내용들을 받아볼 수 있게 되었다. 
 - MQTT의 동작방식을 구체적으로 알 수 있게 되었고 배운 것을 토대로 센서와 연동시킬수만 있다면, 현재 우리가 쓰고있는 iot 기기들을 구현할 수 있을 것이다. 
